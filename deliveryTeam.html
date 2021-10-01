@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEL Team</title>
+    <link rel="stylesheet" type="text/css" href="../css files/delLogin.css">
+</head>
+<body>
+    <div class="login">
+        <h1>DELIVERY TEAM LOGIN</h1>
+        <form method="post" action="../php files/delloginvalidate.php" target="_self">
+          <p><input type="text" name="delid" value="" placeholder="id"></p>
+          <p><input type="password" name="password" value="" placeholder="Password"></p>
+          <p class="remember_me">
+            <label>
+              <input type="checkbox" name="remember_me" id="remember_me">
+              Remember me 
+            </label>
+          </p>
+          <p class="submit"><input type="submit" name="commit" value="Login"></p>
+        </form>
+    </div>
+      
+    <div class="login-help">
+        <p>Forgot your password? <a href="#">Click here to reset it</a>.</p>
+    </div>
+</body>
+</html>
